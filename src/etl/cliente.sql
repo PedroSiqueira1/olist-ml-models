@@ -1,13 +1,4 @@
 -- Databricks notebook source
-SELECT *
-FROM silver.olist.pedido
-
--- COMMAND ----------
-
-
-
--- COMMAND ----------
-
 
 WITH tb_join AS (
   SELECT 
@@ -72,7 +63,3 @@ SELECT
     *   
        
 FROM tb_group
-
--- COMMAND ----------
-
-
